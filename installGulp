@@ -1,0 +1,35 @@
+#!/bin/bash
+
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+printf " \n you will set up a _Gulp folder in:  \n $DIR/_Gulp \n \n"
+printf "Downloading latest Gulp files from Super natural Github \n \n"
+
+printf "####################################################### \n"
+printf "Downloading latest Gulp files from Super natural Github \n"
+printf "####################################################### \n \n"
+
+
+git clone git@github.com:Super-natural/gulpCommands.git "$DIR/_Gulp"
+
+cd "$DIR/_Gulp"
+
+wait
+
+printf "\n ####################################################### \n"
+printf "                Installing Dependencies \n"
+printf "####################################################### \n \n"
+
+npm install
+
+wait
+
+cd $DIR
+
+
+printf "\n ####################################################### \n"
+printf "                Removing Build Files \n"
+printf "####################################################### \n \n"
+
+sudo rm "$DIR/installGulp"
