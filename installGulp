@@ -32,4 +32,8 @@ printf "\n ####################################################### \n"
 printf "                Removing Build Files \n"
 printf "####################################################### \n \n"
 
-sudo rm "$DIR/installGulp"
+rm -f "$DIR/installGulp"
+
+wait
+
+exit 0
