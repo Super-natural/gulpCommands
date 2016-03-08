@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- build:css All.min.css -->
+		<link type="text/css" rel="stylesheet" href="css/parent.css">
+		<!-- endbuild -->
+
+	</head>
+	<body>
+		<div id="container">
+			<!--div class="adBg"></div-->
+
+			<!--preloader spinner and images that need manual preloading-->
+			<div id="preloader"></div>
+
+			<!--elements that are always present-->
+			<div id="border"></div>
+			<div id="coverallBtn" class="btn"></div>
+
+			<!--This is where the child is loaded-->
+			<ft-richload id="childContainer"></ft-richload>
+		</div>
+
+		<script src="http://cdn.flashtalking.com/frameworks/js/api/2/8/html5API.js"></script>
+
+		<!-- build:js All.min.js -->
+		<script type="text/javascript" src="js/loader_itv.js"></script>
+		<script type="text/javascript" src="js/parent.js"></script>
+    <!-- endbuild -->
+
+	</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"htmlName": "myHTML",
+	"zipName": "myZIP",
+	"adServer": "Flashtalking",
+
+	"parentFiles": {
+		"srcCss": [
+			"css/myCSSScriptHere.css"
+		],
+		"srcJS": [
+			"js/myJSScriptHere.css"
+		],
+		"manualCopy": [
+			"manifest.js"
+		]
+	},
+
+	"childFiles": {
+		"srcCss": [
+			"css/myCSSScriptHere.css"
+		],
+		"srcJS": [
+			"js/myJSScriptHere.css"
+		],
+		"manualCopy": [
+		]
+	}
+}

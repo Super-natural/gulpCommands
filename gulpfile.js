@@ -357,7 +357,12 @@ myGulp.pipeOpts.replaceSRC = lazypipe()
                   .pipe(replace,  "_fonts/"  , './')
                   .pipe(replace,  "_js/lib/"   , './')
                   .pipe(replace,  "js/lib/"   , './')
+                  .pipe(replace,  "_js/mod/"   , './')
+                  .pipe(replace,  "js/mod/"   , './')
                   .pipe(replace,  "_js/"   , './')
+                  .pipe(replace,  "js/"   , './')
+                  .pipe(replace,  "_assets/"   , './')
+                  .pipe(replace,  "assets/"   , './')
                   .pipe(chmod, 666);
 
 
